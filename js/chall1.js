@@ -5,5 +5,7 @@ function openEmail(){
     if(is_checked == true){
         document.querySelector("#emailDiv").style.display = "block"
     }
+    else{
+        document.querySelector("#emailDiv").style.display = "none"
+    }}
     
-}
